@@ -25,7 +25,21 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
+```
+class Fish:
+    def type(self): 
+        print("fish")
 
+class Shark(Fish):
+    def type(self): 
+        print("shark") 
+obj_goldfish = Fish() 
+obj_hammerhead = Shark() 
+for fish in (obj_goldfish, obj_hammerhead):
+    fish.type()
+```
 ## Output
+<img width="1586" height="588" alt="image" src="https://github.com/user-attachments/assets/638dc373-381c-41f5-8166-342fecb1de34" />
 
 ## Result
+Thus To write a Python program that demonstrates class inheritance by creating a parent class Fish with a method type, and a child class Shark that overrides the type method. Hence the code has been executed successfully.
